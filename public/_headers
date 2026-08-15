@@ -1,0 +1,26 @@
+# Cloudflare Pages header rules.
+#
+# This file is copied verbatim into the exported site. It replaces the headers()
+# block in next.config.mjs, which does nothing under `output: "export"`.
+
+# 3D models and the Draco decoder never change for a given filename, and they are
+# the expensive part of the site — up to 6.6 MB each. Cache them for a year so a
+# returning student downloads them once.
+/models/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/draco/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Per-region name lookups change only when the models are re-indexed.
+/mesh-labels/*
+  Cache-Control: public, max-age=86400
+
+# Next.js fingerprints these filenames, so they are safe to cache forever.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Sensible defaults for everything else.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

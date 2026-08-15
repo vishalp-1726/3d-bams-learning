@@ -1,0 +1,31 @@
+{
+  // Cloudflare deployment config.
+  //
+  // WHY THIS FILE EXISTS
+  //
+  // Without a wrangler config, Cloudflare detects "Next.js" and automatically runs
+  // `@opennextjs/cloudflare migrate`, which rewrites the project to deploy as a
+  // server-rendered Worker built from `.next`. That is the wrong shape for this
+  // site and it failed: the generated self-reference binding used the package
+  // name (`bams-3d-learning`) while the project is named `3d-bams-learning`, so
+  // the deploy aborted with "Worker not found [code: 10143]".
+  //
+  // This site has no server code at all — every one of its 41 routes is
+  // prerendered — so it is deployed as STATIC ASSETS. No Worker script, no
+  // OpenNext, no cold starts, and static asset requests are unmetered on the free
+  // plan, which is the whole reason for choosing Cloudflare: 74 MB of 3D models
+  // is more bandwidth than the 100 GB/month tiers comfortably allow.
+  //
+  // The presence of this file is also what stops the migrate step from running.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "3d-bams-learning",
+  "compatibility_date": "2026-08-15",
+
+  // No "main": omitting it is what makes this an assets-only deployment.
+  "assets": {
+    // `npm run build` writes here because next.config.mjs sets output: "export".
+    "directory": "./out",
+    // Serve the exported 404 page for unknown paths, rather than a bare error.
+    "not_found_handling": "404-page"
+  }
+}

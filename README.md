@@ -419,9 +419,20 @@ have no separate Tendons group, so tendons live under `Muscles`. Those are liste
 
 ## Hosting
 
-Static Next.js app + static GLBs, so it runs free anywhere. Models can move to
-Cloudflare R2 (10 GB free, zero egress) by setting `NEXT_PUBLIC_MODEL_BASE_URL` —
-nothing else changes.
+Static export (`output: "export"`), deployed to **Cloudflare Pages**. See
+[DEPLOY.md](DEPLOY.md) for the setup steps and why Cloudflare rather than GitHub
+Pages or Vercel — in short, this site is 74 MB of 3D models, so bandwidth is the
+binding constraint and Cloudflare's free tier is the only one without a cap.
+
+```bash
+npm run build          # writes ./out
+npm run serve:static   # serve ./out exactly as a static host would
+BASE_URL=http://localhost:4173 npm run check:visual -- --all
+```
+
+Testing against `npm start` would not prove the export works: that runs the Next
+server, not a static host. Models can still be moved off to Cloudflare R2 by
+setting `NEXT_PUBLIC_MODEL_BASE_URL`; nothing else changes.
 
 ## Licence
 

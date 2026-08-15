@@ -2,6 +2,11 @@ node_modules/
 .next/
 out/
 build/
+
+# Cloudflare / Wrangler build artefacts
+.wrangler/
+.open-next/
+.dev.vars
 .DS_Store
 *.pem
 .env*.local

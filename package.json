@@ -1,5 +1,5 @@
 {
-  "name": "bams-3d-learning",
+  "name": "3d-bams-learning",
   "version": "0.1.0",
   "private": true,
   "description": "Free 3D anatomy learning platform for BAMS and MBBS students, built on open-licensed anatomically segmented models.",
@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "serve:static": "node scripts/serve-static.mjs",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "prepare": "node scripts/copy-draco.mjs",
