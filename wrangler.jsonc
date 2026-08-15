@@ -21,6 +21,22 @@
   "name": "3d-bams-learning",
   "compatibility_date": "2026-08-15",
 
+  // Build before deploying.
+  //
+  // ./out is generated, not committed, so a deploy that runs `wrangler deploy`
+  // without building first fails with:
+  //
+  //   The directory specified by the "assets.directory" field ... does not exist:
+  //   /opt/buildhome/repo/out
+  //
+  // That is exactly what happened once the OpenNext path was removed: OpenNext
+  // had been running the build itself, and nothing replaced it. Declaring the
+  // build here means the deploy is self-contained and does not depend on a build
+  // command being set correctly in the dashboard.
+  "build": {
+    "command": "npm run build"
+  },
+
   // No "main": omitting it is what makes this an assets-only deployment.
   "assets": {
     // `npm run build` writes here because next.config.mjs sets output: "export".

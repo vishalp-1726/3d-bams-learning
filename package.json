@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "serve:static": "node scripts/serve-static.mjs",
+    "deploy": "wrangler deploy",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "prepare": "node scripts/copy-draco.mjs",

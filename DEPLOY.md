@@ -20,16 +20,21 @@ exported site is 194 files against a 20,000 limit.
 
 ## Settings
 
-In the Cloudflare dashboard, the project needs:
+In the Cloudflare dashboard, the project needs only:
 
 | Field | Value |
 | --- | --- |
-| Build command | `npm run build` |
+| Branch | `main` |
 | Deploy command | `npx wrangler deploy` |
-| Build output directory | *(leave blank — `wrangler.jsonc` points at `out`)* |
+| Build command | *(may be left blank)* |
+| Build output directory | *(leave blank — `wrangler.jsonc` supplies it)* |
 
-Everything else is already in the repo. There are no environment variables and no
-secrets.
+The build command can be blank because `wrangler.jsonc` declares
+`build.command: "npm run build"`, so `wrangler deploy` builds first and then
+uploads. That is deliberate: it keeps the deploy self-contained rather than
+depending on a dashboard field being set correctly.
+
+There are no environment variables and no secrets.
 
 ---
 
@@ -94,12 +99,27 @@ type.
 To check the Cloudflare config itself without deploying:
 
 ```bash
+rm -rf out                       # prove the build step really runs
 npx wrangler deploy --dry-run
 ```
 
-It should report the file count from `out` and **"No bindings found"**. Any
-mention of a Worker script or a service binding means the OpenNext path has crept
-back in.
+Expect `[custom build]` output followed by:
+
+```
+✨ Read 194 files from the assets directory .../out
+No bindings found.
+```
+
+**"No bindings found"** is the signal that this is a genuinely static deployment.
+Any mention of a Worker script, `WORKER_SELF_REFERENCE`, or OpenNext means the
+server path has crept back in.
+
+## Failures seen so far, and what they meant
+
+| Error | Cause |
+| --- | --- |
+| `Service binding 'WORKER_SELF_REFERENCE' … not found [10143]` | No wrangler config, so Cloudflare auto-ran the OpenNext migration and built a server Worker. Fixed by adding `wrangler.jsonc`. |
+| `The directory specified by "assets.directory" … does not exist: /opt/buildhome/repo/out` | Nothing built the site. OpenNext had been running the build; once it was removed, no build step remained. Fixed by `build.command` in `wrangler.jsonc`. |
 
 ## Custom domain
 
