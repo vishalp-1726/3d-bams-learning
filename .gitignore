@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+.env*.local
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+
+# Screenshots from `npm run check:visual`
+.visual/
+
+# The 3D models ARE committed (74 MB total, largest file 6.6 MB).
+#
+# They are CC BY-SA 4.0, which explicitly permits redistribution with attribution
+# — see models/LICENSE.md and the /attributions page. Committing them keeps the
+# site self-contained: deploys do not depend on the universities' server being
+# reachable, and `npm run models:fetch` stays available for refreshing them.

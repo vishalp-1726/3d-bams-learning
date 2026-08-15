@@ -1,0 +1,313 @@
+[
+  {
+    "id": "glenohumeral-ligaments",
+    "meshNames": [
+      "Superior glenohumeral ligament.r",
+      "Middle glenohumeral ligament.r",
+      "Inferior glenohumeral ligament.r"
+    ],
+    "ta2": "Ligamenta glenohumeralia",
+    "en": "Glenohumeral ligaments",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "Three bands thickening the front of the shoulder capsule. They are what stop the ball slipping forwards out of its shallow socket.",
+    "detail": "Superior, middle and inferior bands running from the glenoid margin and labrum to the anatomical neck of the humerus. The inferior band is the strongest and forms a sling under the humeral head.",
+    "clinical": "The inferior glenohumeral ligament is the main restraint against anterior dislocation when the arm is abducted and externally rotated — the position of a throw, and the position in which the shoulder dislocates.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "transverse-scapular-ligaments",
+    "meshNames": [
+      "Superior transverse scapular ligament.r",
+      "Inferior transverse scapular ligament.r"
+    ],
+    "ta2": "Ligamentum transversum scapulae superius et inferius",
+    "en": "Transverse scapular ligaments",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "Two small bands bridging notches on the shoulder blade, turning each notch into a tunnel for the nerve passing through.",
+    "detail": "The superior ligament bridges the suprascapular notch; the inferior (spinoglenoid) ligament bridges the spinoglenoid notch at the base of the scapular spine.",
+    "clinical": "The suprascapular nerve passes UNDER the superior ligament while its artery passes OVER — 'the army over the bridge, the navy under'. Entrapment at either notch causes shoulder pain with weak abduction and external rotation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "conoid-trapezoid-ligaments",
+    "meshNames": [
+      "Conoid ligament (part of coracoclavicular ligament).r",
+      "Trapezoid ligament (part of coracoclavicular ligament).r"
+    ],
+    "ta2": "Ligamentum conoideum; Ligamentum trapezoideum",
+    "en": "Conoid & trapezoid ligaments",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "The two parts of the strong ligament tying the collarbone down to the coracoid process. Together they hang the shoulder blade from the clavicle.",
+    "detail": "The conoid is the cone-shaped medial part, the trapezoid the flatter lateral part. Together they form the coracoclavicular ligament, the main structure transmitting the weight of the limb to the clavicle.",
+    "clinical": "In an acromioclavicular injury, rupture of these two is what allows the clavicle to ride up and produce the obvious step deformity — the difference between a sprain and a full separation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "acromioclavicular-ligament",
+    "meshNames": ["Acromioclavicular ligament.r"],
+    "ta2": "Ligamentum acromioclaviculare",
+    "en": "Acromioclavicular ligament",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "The band directly over the joint between the collarbone and the shoulder blade, holding the two ends together.",
+    "detail": "Runs across the superior aspect of the acromioclavicular joint, reinforcing its capsule. It resists horizontal displacement, while the coracoclavicular ligament resists vertical displacement.",
+    "clinical": "Sprained alone in a mild shoulder separation; the clavicle only rides high once the coracoclavicular ligament goes too.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "sternoclavicular-ligaments-ap",
+    "meshNames": [
+      "Anterior sternoclavicular ligament.r",
+      "Posterior Sternoclavicular ligament.r"
+    ],
+    "ta2": "Ligamentum sternoclaviculare anterius et posterius",
+    "en": "Anterior & posterior sternoclavicular ligaments",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "Bands in front of and behind the joint where the collarbone meets the breastbone.",
+    "detail": "Thickenings of the sternoclavicular joint capsule running between the medial clavicle and the manubrium.",
+    "clinical": "The posterior ligament is the stronger, which is fortunate: a posterior dislocation would threaten the trachea and great vessels lying directly behind.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "sternoclavicular-disc",
+    "meshNames": ["Art disc of steroclavicular joint.r"],
+    "ta2": "Discus articularis sternoclavicularis",
+    "en": "Articular disc of the sternoclavicular joint",
+    "layer": "cartilage",
+    "region": "zone-shoulder",
+    "plain": "A pad of fibrocartilage sitting between the collarbone and the breastbone, dividing the joint into two compartments.",
+    "detail": "A complete disc attached above to the clavicle and below to the first costal cartilage, so it acts as a check against the clavicle riding upwards and medially.",
+    "clinical": "This disc is why force transmitted along the clavicle fractures the bone rather than dislocating the joint.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "transverse-humeral-ligament",
+    "meshNames": ["Transverse humeral ligament.r"],
+    "ta2": "Ligamentum transversum humeri",
+    "en": "Transverse humeral ligament",
+    "layer": "ligament",
+    "region": "zone-shoulder",
+    "plain": "A short band bridging the groove at the top of the arm bone, holding the biceps tendon in its channel.",
+    "detail": "Runs between the greater and lesser tubercles, roofing the intertubercular groove and converting it into a canal for the long head of biceps and its synovial sheath.",
+    "clinical": "If it tears, the biceps tendon can snap in and out of the groove on rotation — a painful, sometimes audible, subluxation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "interosseous-membrane-forearm",
+    "meshNames": ["Interosseous membrane of forearm.r", "Oblique cord or radio-ulnar syndesmosis.r"],
+    "ta2": "Membrana interossea antebrachii",
+    "en": "Interosseous membrane of the forearm",
+    "layer": "ligament",
+    "region": "zone-elbow",
+    "plain": "A tough sheet stretched between the two forearm bones. It ties them together and passes force from the wrist up to the elbow.",
+    "detail": "Its main fibres run downwards and medially from the radius to the ulna, so weight taken on the hand is transmitted from radius to ulna and on to the humerus. The oblique cord runs the other way, above it.",
+    "clinical": "It also separates the flexor and extensor compartments and gives both attachment. Disruption with a radial head fracture and distal radio-ulnar injury is an Essex-Lopresti injury, in which the radius migrates proximally.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "quadrate-ligament",
+    "meshNames": ["Quadrate ligament.r"],
+    "ta2": "Ligamentum quadratum",
+    "en": "Quadrate ligament",
+    "layer": "ligament",
+    "region": "zone-elbow",
+    "plain": "A small square band below the ring that holds the head of the radius, steadying it as the forearm rotates.",
+    "detail": "Runs from the radial notch of the ulna to the neck of the radius, just below the anular ligament, limiting rotation at the proximal radio-ulnar joint.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "dorsal-radioulnar-ligament",
+    "meshNames": ["Dorsal radio-ulnar ligament.r"],
+    "ta2": "Ligamentum radioulnare dorsale",
+    "en": "Dorsal radio-ulnar ligament",
+    "layer": "ligament",
+    "region": "zone-elbow",
+    "plain": "A band on the back of the wrist tying the lower ends of the two forearm bones together.",
+    "detail": "Part of the triangular fibrocartilage complex at the distal radio-ulnar joint, with its palmar counterpart. It becomes taut in pronation.",
+    "clinical": "Injury to this complex is a common cause of ulnar-sided wrist pain and of instability of the distal radio-ulnar joint after a Colles fracture.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "intermuscular-septa-arm",
+    "meshNames": [
+      "Lateral intermuscular septum of arm.r",
+      "Medial intermuscular septum of arm.r"
+    ],
+    "ta2": "Septum intermusculare brachii laterale et mediale",
+    "en": "Intermuscular septa of the arm",
+    "layer": "ligament",
+    "region": "zone-elbow",
+    "plain": "Two fibrous walls running from the arm's deep fascia to the humerus, dividing the arm into a front and a back compartment.",
+    "detail": "The medial and lateral septa attach along the supracondylar ridges, separating the anterior (flexor) compartment from the posterior (extensor) compartment.",
+    "clinical": "The radial nerve pierces the lateral septum and the ulnar nerve the medial, and both are tethered where they do so — which is why each is vulnerable at that point in a humeral fracture.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06"] }
+  },
+  {
+    "id": "bicipital-aponeurosis",
+    "meshNames": ["Bicipital aponeurosis.r"],
+    "ta2": "Aponeurosis musculi bicipitis brachii",
+    "en": "Bicipital aponeurosis",
+    "synonyms": ["lacertus fibrosus"],
+    "layer": "tendon",
+    "region": "zone-elbow",
+    "plain": "A flat sheet peeling off the biceps tendon and fanning across the front of the elbow.",
+    "detail": "Passes medially from the biceps tendon over the brachial artery and median nerve to blend with the deep fascia over the forearm flexors.",
+    "clinical": "It roofs the cubital fossa and protects the brachial artery and median nerve beneath — which is exactly why it matters when taking blood or cannulating at the elbow.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06"] }
+  },
+  {
+    "id": "biceps-brachii-tendons",
+    "meshNames": ["Common tendon of biceps brachii.r", "Short head of biceps brachii.r", "Short head of biceps brachii origin and insertion.r"],
+    "ta2": "Musculus biceps brachii",
+    "en": "Biceps brachii (short head & distal tendon)",
+    "layer": "muscle",
+    "region": "zone-shoulder",
+    "plain": "The inner head of the biceps, arising from the coracoid process, and the common tendon that carries both heads down to the radius.",
+    "detail": "Short head from the tip of the coracoid process with coracobrachialis; the two heads join and insert by a common tendon into the radial tuberosity, plus the bicipital aponeurosis. Supplied by the musculocutaneous nerve.",
+    "clinical": "Because it inserts on the radius, biceps is the most powerful supinator — strongest with the elbow flexed, which is why a screwdriver is turned that way.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "triceps-common-tendon",
+    "meshNames": ["Common tendon of triceps brachii.r"],
+    "ta2": "Tendo musculi tricipitis brachii",
+    "en": "Common tendon of triceps brachii",
+    "layer": "tendon",
+    "region": "zone-elbow",
+    "plain": "The thick flat tendon carrying all three heads of the triceps down onto the point of the elbow.",
+    "detail": "Inserts into the posterior part of the superior surface of the olecranon, with an expansion into the deep fascia of the forearm.",
+    "clinical": "The tendon struck to elicit the triceps jerk, which tests C7.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "anconeus",
+    "meshNames": ["Anconeus origin and insertion.r"],
+    "ta2": "Musculus anconeus",
+    "en": "Anconeus",
+    "layer": "muscle",
+    "region": "insertions-and-origins",
+    "plain": "A small triangular muscle at the back of the elbow, helping the triceps straighten it.",
+    "detail": "From the back of the lateral epicondyle to the lateral olecranon and upper posterior ulna. Supplied by the radial nerve.",
+    "clinical": "It covers the annular ligament and is used as a landmark and a muscle flap in elbow surgery.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "flexor-carpi-radialis",
+    "meshNames": ["Flexor carpi radialis"],
+    "ta2": "Musculus flexor carpi radialis",
+    "en": "Flexor carpi radialis",
+    "layer": "muscle",
+    "region": "insertions-and-origins",
+    "plain": "A forearm muscle bending the wrist and tilting it towards the thumb. Its tendon is the prominent one in the middle of the front of the wrist.",
+    "detail": "From the medial epicondyle via the common flexor origin to the bases of the 2nd and 3rd metacarpals. Supplied by the median nerve.",
+    "clinical": "The radial pulse is felt just lateral to its tendon — the standard landmark for taking a pulse or cannulating the radial artery.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "extensor-carpi-radialis-brevis",
+    "meshNames": ["Extensor carpi radialis brevis"],
+    "ta2": "Musculus extensor carpi radialis brevis",
+    "en": "Extensor carpi radialis brevis",
+    "layer": "muscle",
+    "region": "insertions-and-origins",
+    "plain": "One of the muscles cocking the wrist backwards, lying just beneath its longer partner.",
+    "detail": "From the common extensor origin on the lateral epicondyle to the base of the 3rd metacarpal. Supplied by the deep branch of the radial nerve.",
+    "clinical": "Its origin is the usual site of lateral epicondylitis — tennis elbow — with pain reproduced by resisted wrist extension.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "deltoid-parts",
+    "meshNames": [
+      "Acromial part of deltoid muscle.r",
+      " Clavicular part of deltoid muscle origin and insertion.r"
+    ],
+    "ta2": "Musculus deltoideus",
+    "en": "Deltoid — clavicular & acromial parts",
+    "layer": "muscle",
+    "region": "zone-shoulder",
+    "plain": "The front and middle thirds of the shoulder cap. The front part lifts the arm forwards; the middle part lifts it sideways.",
+    "detail": "The clavicular (anterior) part flexes and medially rotates; the acromial (middle) part is the main abductor from about 15 to 90 degrees. Supplied by the axillary nerve.",
+    "clinical": "Only the middle, multipennate part is a strong abductor. The anterior and posterior parts oppose each other in abduction and act mainly as flexor and extensor.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "wrist-hand-joint-capsules",
+    "meshNames": [
+      "Articular capsule of radiocarpal joint",
+      "Articular capsules of metacarpophalangeal joints",
+      "Articular capsules of proximal interphalangeal joints",
+      "Articular capsules of distal interphalangeal joints"
+    ],
+    "ta2": "Capsulae articulares manus",
+    "en": "Joint capsules of the wrist & hand",
+    "layer": "joint",
+    "region": "hand-and-wrist-joints",
+    "plain": "The fibrous sleeves enclosing each joint of the wrist and fingers, holding the joint fluid in.",
+    "detail": "Each capsule is lined by synovial membrane and reinforced at the sides by collateral ligaments and in front by a palmar plate.",
+    "clinical": "The collateral ligaments of the metacarpophalangeal joints are slack in extension and taut in flexion — which is why a stiff hand is splinted with those joints FLEXED, to keep them at length.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "bicipitoradial-bursa",
+    "meshNames": ["Bicipitoradial bursa"],
+    "ta2": "Bursa bicipitoradialis",
+    "en": "Bicipitoradial bursa",
+    "layer": "bursa",
+    "region": "zone-elbow",
+    "plain": "A small fluid sac cushioning the biceps tendon where it wraps onto the radius.",
+    "detail": "Lies between the biceps tendon and the anterior part of the radial tuberosity, and is compressed as the forearm pronates.",
+    "clinical": "Repetitive pronation can inflame it, giving anterior elbow pain that is easily mistaken for distal biceps tendinopathy.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "coracobrachial-bursa",
+    "meshNames": ["Coracobrachial bursa.r"],
+    "ta2": "Bursa musculi coracobrachialis",
+    "en": "Coracobrachial bursa",
+    "layer": "bursa",
+    "region": "zone-shoulder",
+    "plain": "A small sac between the coracoid muscles and the shoulder capsule, letting them slide over one another.",
+    "detail": "Lies between the tendon of subscapularis and the conjoint tendon of coracobrachialis and the short head of biceps.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "capitohamate-ligament",
+    "meshNames": ["Capitohamate interosseus ligament"],
+    "ta2": "Ligamenta intercarpalia interossea",
+    "en": "Capitohamate interosseous ligament",
+    "layer": "ligament",
+    "region": "hand-and-wrist-joints",
+    "plain": "A short strong band binding two neighbouring wrist bones directly to each other.",
+    "detail": "One of the interosseous intercarpal ligaments, tying the capitate to the hamate within the distal carpal row.",
+    "clinical": "These interosseous ligaments make the distal carpal row behave as a single rigid unit, which is what allows the proximal row to move as an intercalated segment.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "xiphoid-process",
+    "meshNames": ["Xiphoid process"],
+    "ta2": "Processus xiphoideus",
+    "en": "Xiphoid process",
+    "layer": "bone",
+    "region": "overview-skeleton",
+    "plain": "The small pointed tip at the bottom of the breastbone. It stays cartilage well into adult life before turning to bone.",
+    "detail": "The smallest of the three parts of the sternum, joined to the body at the xiphisternal joint, which lies at the level of T9.",
+    "clinical": "The landmark for the upper limit of the abdomen and for hand position in CPR — compressions are placed above it, since pressing on the xiphoid can drive it into the liver.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  },
+  {
+    "id": "parietal-bone-left",
+    "meshNames": ["Parietal bone.l"],
+    "ta2": "Os parietale",
+    "en": "Parietal bone (left)",
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "The left one of the two large curved bones forming the roof and sides of the skull.",
+    "detail": "Meets its fellow at the sagittal suture, the frontal bone at the coronal suture and the occipital bone at the lambdoid suture.",
+    "clinical": "Where parietal, frontal, temporal and sphenoid meet is the pterion — the thinnest part of the skull, with the anterior division of the middle meningeal artery running beneath. A blow there can cause an extradural haematoma.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  }
+]

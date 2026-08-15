@@ -1,0 +1,321 @@
+[
+  {
+    "id": "brachial-plexus-roots",
+    "meshNames": ["C5 root.r", "C6 root.r", "C7 root.r", "C8 root.r", "T1 root.r"],
+    "ta2": "Radices plexus brachialis",
+    "en": "Roots of the brachial plexus (C5–T1)",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The five spinal nerves that feed the whole plexus. Everything in the arm ultimately comes from these five.",
+    "detail": "The anterior rami of C5, C6, C7, C8 and T1. They emerge between scalenus anterior and scalenus medius. Remember the whole plexus in order as Roots, Trunks, Divisions, Cords, Branches — 'Real Texans Drink Cold Beer'.",
+    "clinical": "Two branches leave the roots directly: the dorsal scapular nerve (C5) and the long thoracic nerve (C5, C6, C7). Any nerve arising this proximally is spared in more distal injuries, which helps localise a lesion.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "superior-trunk",
+    "meshNames": ["Superior trunk of brachial plexus.r", "Superior trunk.r"],
+    "ta2": "Truncus superior",
+    "en": "Superior trunk",
+    "synonyms": ["upper trunk"],
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Formed where the C5 and C6 roots join. It sits high in the neck, just above the clavicle, where it is easy to injure.",
+    "detail": "C5 + C6. Gives off the suprascapular nerve and the nerve to subclavius before dividing into anterior and posterior divisions. The point where C5 and C6 unite is Erb's point.",
+    "clinical": "Injured by forcible widening of the angle between neck and shoulder — a fall onto the shoulder, or traction on the head during a difficult delivery. This is Erb's palsy: the arm hangs adducted and medially rotated with the forearm pronated, the 'waiter's tip' position.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "middle-trunk",
+    "meshNames": ["Middle trunk of brachial plexus.r", "Middle trunk.r"],
+    "ta2": "Truncus medius",
+    "en": "Middle trunk",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The continuation of the C7 root alone — it is the one trunk formed by a single root.",
+    "detail": "C7 only. Divides into an anterior division (to the lateral cord) and a posterior division (to the posterior cord). It gives no branches of its own.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "inferior-trunk",
+    "meshNames": ["Inferior trunk of brachial plexus.r", "Inferior trunk.r"],
+    "ta2": "Truncus inferior",
+    "en": "Inferior trunk",
+    "synonyms": ["lower trunk"],
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Formed by C8 and T1. It lies on the first rib, right behind the subclavian artery.",
+    "detail": "C8 + T1. Its anterior division continues as the medial cord. It carries most of the fibres destined for the small muscles of the hand.",
+    "clinical": "Injured by forcible upward pull on the abducted arm — grabbing a branch while falling, or traction during delivery. This is Klumpke's palsy: a clawed hand from paralysis of the intrinsic muscles. T1 also carries sympathetic fibres, so a Horner syndrome may accompany it. A cervical rib or Pancoast tumour compresses the same trunk.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "plexus-divisions",
+    "meshNames": [
+      "Anterior divisions of brachial plexus.r",
+      "Posterior divisions of brachial plexus.r",
+      "Anterior divisions.r",
+      "Posterior divisions.r"
+    ],
+    "ta2": "Divisiones plexus brachialis",
+    "en": "Divisions of the brachial plexus",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Each trunk splits into a front and a back part behind the collarbone. This split is where the plexus sorts itself out by function.",
+    "detail": "Each of the three trunks divides into an anterior and a posterior division behind the clavicle. The three posterior divisions unite to form the posterior cord.",
+    "clinical": "This is the functional turning point of the plexus: anterior divisions supply flexor compartments, posterior divisions supply extensor compartments. Knowing this alone predicts most of the plexus's motor distribution.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "lateral-cord",
+    "meshNames": ["Lateral cord of brachial plexus.r", "Lateral cord.r"],
+    "ta2": "Fasciculus lateralis",
+    "en": "Lateral cord",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "One of three bundles named by their position around the axillary artery. This one lies on the outer side of the artery.",
+    "detail": "From the anterior divisions of the superior and middle trunks (C5–C7). Gives the lateral pectoral nerve, then ends by dividing into the musculocutaneous nerve and the lateral root of the median nerve.",
+    "clinical": "The cords are named for their relationship to the second part of the axillary artery, so their names only make sense once you can picture the artery.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "medial-cord",
+    "meshNames": ["Medial cord of brachial plexus.r", "Medial cord.r"],
+    "ta2": "Fasciculus medialis",
+    "en": "Medial cord",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The bundle on the inner side of the axillary artery. It supplies most of the small muscles of the hand.",
+    "detail": "The continuation of the anterior division of the inferior trunk (C8, T1). Gives the medial pectoral nerve, the medial brachial and medial antebrachial cutaneous nerves, then ends as the ulnar nerve and the medial root of the median nerve.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "posterior-cord",
+    "meshNames": [
+      "Posterior cord of brachial plexus.r",
+      "Posterial cord.r"
+    ],
+    "ta2": "Fasciculus posterior",
+    "en": "Posterior cord",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The bundle behind the axillary artery. Everything it supplies is an extensor.",
+    "detail": "From the posterior divisions of all three trunks (C5–T1). Its branches are the upper subscapular, thoracodorsal, lower subscapular, axillary and radial nerves — remember them as ULTRA, in order from above downwards.",
+    "clinical": "Because every posterior-cord branch supplies extensors, a posterior cord lesion abolishes extension at the shoulder, elbow, wrist and fingers.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "median-nerve-plexus",
+    "meshNames": [
+      "Median nerve.r",
+      "Lateral root of median nerve.r",
+      "Medial root of median nerve.r"
+    ],
+    "ta2": "Nervus medianus",
+    "en": "Median nerve (roots and trunk)",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Formed by two roots, one from the lateral cord and one from the medial cord, which join in front of the axillary artery to make a V shape.",
+    "detail": "Lateral root (C6, C7) from the lateral cord and medial root (C8, T1) from the medial cord unite anterior to the third part of the axillary artery. C5–T1 overall.",
+    "clinical": "That V in front of the artery is the single most recognisable landmark in the axilla — find it and you can identify every other cord and branch from it.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "ulnar-nerve-plexus",
+    "meshNames": ["Ulnar nerve.r"],
+    "ta2": "Nervus ulnaris",
+    "en": "Ulnar nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The terminal continuation of the medial cord. It supplies almost every small muscle inside the hand.",
+    "detail": "C8, T1 (often with a C7 contribution). Runs down the medial side of the arm, passes behind the medial epicondyle, and enters the hand through Guyon's canal.",
+    "clinical": "Behind the medial epicondyle it lies subcutaneously against bone — the 'funny bone'. A lesion there gives a claw hand with wasting of the first dorsal interosseous.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "radial-nerve-plexus",
+    "meshNames": [
+      "Radial nerve.r",
+      "Radial nerve (superficial br).r",
+      "Radial nerve (posterior brachial cutaneous n).r",
+      "Radial nerve (inferior lateral brachial cutaneous n).r",
+      "Radial nerve (posterior antebrachial cutaneous n).r"
+    ],
+    "ta2": "Nervus radialis",
+    "en": "Radial nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The largest branch of the plexus and the great extensor nerve — it straightens the elbow, wrist and fingers.",
+    "detail": "The terminal branch of the posterior cord (C5–T1). Spirals round the back of the humerus in the radial groove, then divides into superficial (sensory) and deep (posterior interosseous) branches.",
+    "clinical": "A mid-shaft humeral fracture can injure it in the radial groove, causing wrist drop. Triceps is usually spared because its branches leave above the groove.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "musculocutaneous-nerve-plexus",
+    "meshNames": [
+      "Musculocutaneus nerve.r",
+      "Musculocutaneus nerve  - lateral antebrachial cutaneous nerve.r"
+    ],
+    "ta2": "Nervus musculocutaneus",
+    "en": "Musculocutaneous nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The nerve of the front of the arm. It pierces a muscle on its way, which is unusual, then continues into the forearm as a purely sensory nerve.",
+    "detail": "From the lateral cord (C5–C7). Pierces coracobrachialis, runs between biceps brachii and brachialis supplying all three, and continues as the lateral antebrachial cutaneous nerve.",
+    "clinical": "Injury weakens elbow flexion and supination and numbs the lateral forearm. Because brachioradialis (radial nerve) also flexes the elbow, flexion is weakened but not abolished.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "axillary-nerve-plexus",
+    "meshNames": [
+      "Axillary nerve - superior lateral br cutaneous nerve.r",
+      "Axilary nerve_Superior lateral brachial cutaneous nerve.r"
+    ],
+    "ta2": "Nervus axillaris",
+    "en": "Axillary nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "A short nerve that curls round the back of the upper arm bone to reach the deltoid muscle.",
+    "detail": "From the posterior cord (C5, C6). Passes through the quadrangular space with the posterior circumflex humeral vessels, winding round the surgical neck of the humerus. Supplies deltoid and teres minor, and the skin over the lower deltoid via the superior lateral cutaneous nerve of the arm.",
+    "clinical": "Injured by fracture of the surgical neck of the humerus or by anterior shoulder dislocation. Test it by checking sensation over the 'regimental badge' area on the lateral shoulder before and after reducing a dislocation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "long-thoracic-nerve",
+    "meshNames": ["Long thoracic nerve.r"],
+    "ta2": "Nervus thoracicus longus",
+    "en": "Long thoracic nerve",
+    "synonyms": ["nerve of Bell"],
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "A long thin nerve running down the side of the chest wall to serratus anterior, the muscle that holds the shoulder blade flat against the ribs.",
+    "detail": "Arises directly from the roots C5, C6 and C7 — 'C5, 6, 7 keeps the scapula from heaven'. Descends on the superficial surface of serratus anterior.",
+    "clinical": "Its superficial course makes it vulnerable in axillary surgery, especially mastectomy with axillary clearance, and to blows to the chest wall. Damage causes winging of the scapula, obvious when the patient pushes against a wall.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "dorsal-scapular-nerve",
+    "meshNames": ["Dorsal scapular nerve.r"],
+    "ta2": "Nervus dorsalis scapulae",
+    "en": "Dorsal scapular nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "A small nerve leaving the plexus very early, supplying the muscles that pull the shoulder blade towards the spine.",
+    "detail": "From the C5 root, piercing scalenus medius to reach levator scapulae and the rhomboids.",
+    "clinical": "Along with the long thoracic nerve, it is one of only two branches taken directly from the roots — useful for localising very proximal lesions.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "suprascapular-nerve",
+    "meshNames": ["Suprascapular nerve.r"],
+    "ta2": "Nervus suprascapularis",
+    "en": "Suprascapular nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "A branch of the upper trunk that passes through a notch in the top edge of the shoulder blade to reach two of the rotator cuff muscles.",
+    "detail": "From the superior trunk (C5, C6). Passes through the suprascapular notch beneath the superior transverse scapular ligament to supply supraspinatus and infraspinatus.",
+    "clinical": "The nerve goes under the ligament while the suprascapular artery goes over it — 'the army goes over the bridge, the navy goes under'. It can be entrapped in the notch, causing shoulder pain with weak abduction and lateral rotation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "subscapular-nerves",
+    "meshNames": ["Upper subscapular nerve.r", "Lower subscapular nerve.r"],
+    "ta2": "Nervi subscapulares",
+    "en": "Upper & lower subscapular nerves",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Two short nerves from the posterior cord running backwards to the muscle on the front of the shoulder blade.",
+    "detail": "From the posterior cord (C5, C6). The upper supplies subscapularis; the lower supplies subscapularis and teres major.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "pectoral-nerves",
+    "meshNames": ["Lateral pectoral nerve.r", "Medial pectoral nerve.r"],
+    "ta2": "Nervi pectorales",
+    "en": "Lateral & medial pectoral nerves",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The nerves to the chest muscles. Confusingly, they are named after the cords they come from, not the muscles they reach.",
+    "detail": "The lateral pectoral nerve (C5–C7) from the lateral cord supplies pectoralis major only. The medial pectoral nerve (C8, T1) from the medial cord supplies pectoralis minor and the lower part of pectoralis major, piercing pectoralis minor on the way.",
+    "clinical": "The medial pectoral nerve is the one that supplies both pectoral muscles, despite its name suggesting otherwise — a favourite exam trap.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "medial-cutaneous-nerves-arm",
+    "meshNames": [
+      "Medial brachial cutaneous nerve.r",
+      "Medial antebrachial cutaneous nerve.r"
+    ],
+    "ta2": "Nervus cutaneus brachii medialis; Nervus cutaneus antebrachii medialis",
+    "en": "Medial cutaneous nerves of arm & forearm",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Two purely sensory nerves from the medial cord supplying the skin on the inner side of the arm and forearm.",
+    "detail": "Both arise from the medial cord (C8, T1). The medial brachial cutaneous nerve supplies the medial arm; the medial antebrachial cutaneous nerve supplies the medial forearm.",
+    "clinical": "Sensory loss on the medial arm and forearm points to a lesion at the medial cord or lower trunk rather than at any single terminal nerve.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "phrenic-nerve",
+    "meshNames": ["Phrenic nerve.r", "Phrenic nerves.r"],
+    "ta2": "Nervus phrenicus",
+    "en": "Phrenic nerve",
+    "layer": "nerve",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Not part of the brachial plexus, but it runs right alongside it down the neck on its way to the diaphragm.",
+    "detail": "From the cervical plexus, C3, C4 and C5 — 'C3, 4, 5 keeps the diaphragm alive'. Descends on the anterior surface of scalenus anterior, crossing it from lateral to medial.",
+    "clinical": "It is shown here because of its surgical relations: it lies immediately in front of scalenus anterior, so it is at risk during a supraclavicular brachial plexus block, which can paralyse a hemidiaphragm.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M13"] }
+  },
+  {
+    "id": "scalene-muscles",
+    "meshNames": [
+      "Scalenus anterior muscle.r",
+      "Scalenus medius muscle.r",
+      "Scalenus posterior muscle.r"
+    ],
+    "ta2": "Musculi scaleni",
+    "en": "Scalene muscles",
+    "layer": "muscle",
+    "region": "brachial-plexus-and-branches",
+    "plain": "Three muscles in the side of the neck running down to the first two ribs. The plexus and the subclavian artery escape from the neck through the gap between the front two.",
+    "detail": "Scalenus anterior and medius both attach to the first rib, and the gap between them is the interscalene triangle. The roots and trunks of the plexus and the subclavian artery pass through it; the subclavian vein passes in front of scalenus anterior.",
+    "clinical": "Narrowing of this triangle — by a cervical rib, a hypertrophied scalene, or fibrous bands — causes thoracic outlet syndrome, typically affecting the lower trunk first and so the small muscles of the hand.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M07", "AyUG-RS-P1-M12"] }
+  },
+  {
+    "id": "axillary-artery-plexus",
+    "meshNames": ["Axillary artery.r"],
+    "ta2": "Arteria axillaris",
+    "en": "Axillary artery",
+    "layer": "artery",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The main artery of the armpit. The three cords of the plexus are named after their position around its middle part.",
+    "detail": "Continues from the subclavian artery at the outer border of the first rib and becomes the brachial artery at the lower border of teres major. Divided into three parts by pectoralis minor; the second part is the one the cords are named around.",
+    "clinical": "You cannot make sense of the cord names — lateral, medial, posterior — without first locating this artery. Find the artery, then the cords name themselves.",
+    "curriculum": { "ncism": ["AyUG-RS-P2-M04"] }
+  },
+  {
+    "id": "subclavian-artery-plexus",
+    "meshNames": ["Subclavian artery.r"],
+    "ta2": "Arteria subclavia",
+    "en": "Subclavian artery",
+    "layer": "artery",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The artery running under the collarbone, travelling with the plexus through the gap between the scalene muscles.",
+    "detail": "Passes through the interscalene triangle with the roots and trunks of the plexus, grooving the first rib. Becomes the axillary artery at the lateral border of the first rib.",
+    "clinical": "Because artery and plexus share the interscalene triangle, a cervical rib may compress both — giving hand symptoms together with vascular signs.",
+    "curriculum": { "ncism": ["AyUG-RS-P2-M04"] }
+  },
+  {
+    "id": "first-rib",
+    "meshNames": ["Rib (1st).r"],
+    "ta2": "Costa prima",
+    "en": "First rib",
+    "layer": "bone",
+    "region": "brachial-plexus-and-branches",
+    "plain": "The short, broad, sharply curved top rib. The plexus and the subclavian artery cross over it, so its shape matters clinically.",
+    "detail": "The shortest, broadest and most curved rib. Its upper surface carries the scalene tubercle, with the groove for the subclavian artery behind it and the groove for the subclavian vein in front.",
+    "clinical": "A cervical rib articulating with it narrows the interscalene triangle and is the classic cause of thoracic outlet syndrome, compressing the lower trunk (C8, T1).",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  }
+]

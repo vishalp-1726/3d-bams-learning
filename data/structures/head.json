@@ -1,0 +1,91 @@
+[
+  {
+    "id": "palatine-bone",
+    "meshNames": ["Palatine bone.r"],
+    "ta2": "Os palatinum",
+    "en": "Palatine bone",
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "An L-shaped bone tucked behind the upper jaw. It completes the back of the hard palate — the roof of your mouth.",
+    "detail": "Horizontal and perpendicular plates. The horizontal plates of the two palatine bones form the posterior third of the hard palate, behind the palatine processes of the maxillae. The perpendicular plate contributes to the lateral wall of the nasal cavity.",
+    "clinical": "Failure of the palatine and maxillary shelves to fuse in development produces a cleft palate, which interferes with feeding and speech.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  },
+  {
+    "id": "inferior-nasal-concha",
+    "meshNames": ["Inferior nasal concha bone.r"],
+    "ta2": "Concha nasalis inferior",
+    "en": "Inferior nasal concha",
+    "synonyms": ["inferior turbinate"],
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "A scroll-shaped bone on the side wall of the nasal cavity. The conchae make air swirl so it is warmed and moistened before reaching the lungs.",
+    "detail": "The only concha that is a separate bone — the superior and middle conchae are parts of the ethmoid. Beneath it lies the inferior meatus.",
+    "clinical": "The nasolacrimal duct opens into the inferior meatus, under this concha. The conchae swell in allergic rhinitis, which is what blocks the nose.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  },
+  {
+    "id": "incisors",
+    "meshNames": [
+      "Upper medial incisor.r",
+      "Upper lateral incisor.r",
+      "Lower medial incisor.r",
+      "Lower lateral incisor.r"
+    ],
+    "ta2": "Dentes incisivi",
+    "en": "Incisors",
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "The chisel-shaped front teeth, used for cutting food. There are two on each side of each jaw — a medial and a lateral.",
+    "detail": "Eight in the permanent set. Single-rooted with a chisel-shaped crown. The upper central incisor is the widest.",
+    "clinical": "The most commonly injured teeth, especially the upper central incisors in children who fall.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M08"] }
+  },
+  {
+    "id": "canines",
+    "meshNames": ["Upper canine.r", "Lower canine.r"],
+    "ta2": "Dentes canini",
+    "en": "Canines",
+    "synonyms": ["cuspids", "eye teeth"],
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "The pointed corner teeth used for tearing. One on each side of each jaw, and the longest teeth in the mouth.",
+    "detail": "Four in the permanent set. Single-rooted, with the longest root of any tooth, producing the canine eminence on the maxilla.",
+    "clinical": "Their long roots make them the most stable teeth, and usually the last to be lost in periodontal disease.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M08"] }
+  },
+  {
+    "id": "premolars",
+    "meshNames": [
+      "Upper first premolar.r",
+      "Upper second premolar.r",
+      "Lower first premolar.r",
+      "Lower second premolar.r"
+    ],
+    "ta2": "Dentes premolares",
+    "en": "Premolars",
+    "synonyms": ["bicuspids"],
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "The two teeth on each side between the canine and the molars. They crush and grind food.",
+    "detail": "Eight in the permanent set, two per quadrant. Usually two cusps. The upper first premolar commonly has two roots; the others are usually single-rooted. They have no deciduous counterpart in position — they replace the milk molars.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M08"] }
+  },
+  {
+    "id": "molars",
+    "meshNames": [
+      "Upper first molar tooth.r",
+      "Upper second molar tooth.r",
+      "Lower first molar tooth.r",
+      "Lower second molar tooth.r"
+    ],
+    "ta2": "Dentes molares",
+    "en": "Molars",
+    "layer": "bone",
+    "region": "overview-skull",
+    "plain": "The big grinding teeth at the back. They do most of the work of chewing.",
+    "detail": "Broad crowns with four or five cusps. Upper molars usually have three roots, lower molars two. The first permanent molar erupts at about six years, behind the milk teeth rather than replacing one.",
+    "clinical": "The roots of the upper molars lie very close to the floor of the maxillary sinus, so infection can spread from tooth to sinus, and extraction can open a communication into it.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M08"] }
+  }
+]

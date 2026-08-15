@@ -1,0 +1,182 @@
+{
+  "axillary-nerve": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-axillary-nerve-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/axillary-nerve/axillary-nerve.glb",
+    "sizeMB": 0.72
+  },
+  "brachial-plexus-and-branches": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-brachial-plexus-and-supplied-nerves-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/brachial-plexus-and-branches/brachial-plexus-and-branches.glb",
+    "sizeMB": 1.35
+  },
+  "colored-skull-base": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-coloured-skull-base-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/colored-skull-base/colored-skull-base.glb",
+    "sizeMB": 1.1
+  },
+  "exploded-skull": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-exploded-view-skull-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/exploded-skull/exploded-skull.glb",
+    "sizeMB": 1.15
+  },
+  "hand": {
+    "sourceUrl": "https://anatomytool.org/open3dmodel-learn",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/hand/hand.glb",
+    "sizeMB": 3.1
+  },
+  "hand-and-wrist-bones-and-cartilages": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-hand-and-wrist-bones-and-cartilages-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/hand-and-wrist-bones-and-cartilages/hand-and-wrist-bones-and-cartilages.glb",
+    "sizeMB": 0.39
+  },
+  "hand-and-wrist-joints": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-hand-and-wrist-joints-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/hand-and-wrist-joints/hand-and-wrist-joints.glb",
+    "sizeMB": 1.01
+  },
+  "inguinal-and-femoral-canal-hernia-surgery": {
+    "sourceUrl": "https://anatomytool.org/content/open3danatomy-3d-model-inguinal-and-femoral-canal-and-structures-hernia-surgery",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/inguinal-and-femoral-canal-hernia-surgery/inguinal-and-femoral-canal-hernia-surgery.glb",
+    "sizeMB": 1.33
+  },
+  "inguinal-canal": {
+    "sourceUrl": "https://anatomytool.org/content/open3danatomy-3d-model-inguinal-and-femoral-canal-and-surrounding-regions-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/inguinal-canal/inguinal-canal.glb",
+    "sizeMB": 4.31
+  },
+  "inguinal-ligament": {
+    "sourceUrl": "https://anatomytool.org/content/open3danatomy-3d-model-inguinal-ligament-and-related-structures-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/inguinal-ligament/inguinal-ligament.glb",
+    "sizeMB": 0.67
+  },
+  "insertions-and-origins": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-muscle-attachments-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/insertions-and-origins/insertions-and-origins.glb",
+    "sizeMB": 4.14
+  },
+  "lower-limb": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-lower-limb-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/lower-limb/lower-limb.glb",
+    "sizeMB": 5.9
+  },
+  "median-nerve": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-median-nerve-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/median-nerve/median-nerve.glb",
+    "sizeMB": 0.56
+  },
+  "muscles-thorax-abdomen": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-muscles-thorax-abdomen-and-back-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/muscles-thorax-abdomen/muscles-thorax-abdomen.glb",
+    "sizeMB": 4.92
+  },
+  "musculocutaneous-nerve": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-musculocutaneous-nerve-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/musculocutaneous-nerve/musculocutaneous-nerve.glb",
+    "sizeMB": 1.11
+  },
+  "overview-colored-skull": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-coloured-skull-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/overview-colored-skull/overview-colored-skull.glb",
+    "sizeMB": 1.08
+  },
+  "overview-skeleton": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-skeleton-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/overview-skeleton/overview-skeleton.glb",
+    "sizeMB": 3.26
+  },
+  "overview-skull": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-skull-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/overview-skull/overview-skull.glb",
+    "sizeMB": 0.98
+  },
+  "pelvicfloor": {
+    "sourceUrl": "https://anatomytool.org/content/open3danatomy-3d-model-pelvic-floor-and-perineum-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/pelvicfloor/pelvicfloor.glb",
+    "sizeMB": 2.98
+  },
+  "radial-nerve": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-radial-nerve-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/radial-nerve/radial-nerve.glb",
+    "sizeMB": 0.99
+  },
+  "rotator-cuff": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-rotator-cuff-muscles-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/rotator-cuff/rotator-cuff.glb",
+    "sizeMB": 0.85
+  },
+  "shoulder-and-pectoral-girdle-joints": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-shoulder-and-pectoral-girdle-joints-ligament-parts-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/shoulder-and-pectoral-girdle-joints/shoulder-and-pectoral-girdle-joints.glb",
+    "sizeMB": 0.47
+  },
+  "shoulder-brachial-plexus": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-brachial-plexus-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/shoulder-brachial-plexus/shoulder-brachial-plexus.glb",
+    "sizeMB": 1.28
+  },
+  "ulnar-nerve": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-ulnar-nerve-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/ulnar-nerve/ulnar-nerve.glb",
+    "sizeMB": 0.6
+  },
+  "upper-limb": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-upper-limb-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb/upper-limb.glb",
+    "sizeMB": 6.59
+  },
+  "upper-limb-arm-muscles": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-arm-muscles-muscles-and-bursae-and-ligament-parts-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb-arm-muscles/upper-limb-arm-muscles.glb",
+    "sizeMB": 1.27
+  },
+  "upper-limb-axio-appendicular-muscles": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-axio-appendicular-muscles-muscle-and-ligament-parts-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb-axio-appendicular-muscles/upper-limb-axio-appendicular-muscles.glb",
+    "sizeMB": 2.77
+  },
+  "upper-limb-bones-and-cartilages": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-upper-limb-bones-and-cartilages-trunk-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb-bones-and-cartilages/upper-limb-bones-and-cartilages.glb",
+    "sizeMB": 2.21
+  },
+  "upper-limb-forearm-anterior-compartment-muscles": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-forearm-anterior-compartment-muscles-muscles-and-sheaths-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb-forearm-anterior-compartment-muscles/upper-limb-forearm-anterior-compartment-muscles.glb",
+    "sizeMB": 1.88
+  },
+  "upper-limb-scapulohumeral-muscles": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-scapulohumeral-muscles-muscle-bursa-and-ligament-parts-hidden-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/upper-limb-scapulohumeral-muscles/upper-limb-scapulohumeral-muscles.glb",
+    "sizeMB": 2.05
+  },
+  "vertebrae": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-typical-vertebrae-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/vertebrae/vertebrae.glb",
+    "sizeMB": 0.2
+  },
+  "zone-ankle": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-ankle-and-foot-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/zone-ankle/zone-ankle.glb",
+    "sizeMB": 3.16
+  },
+  "zone-elbow": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-elbow-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/zone-elbow/zone-elbow.glb",
+    "sizeMB": 1.28
+  },
+  "zone-hip": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-hip-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/zone-hip/zone-hip.glb",
+    "sizeMB": 2.22
+  },
+  "zone-knee": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-knee-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/zone-knee/zone-knee.glb",
+    "sizeMB": 1.59
+  },
+  "zone-shoulder": {
+    "sourceUrl": "https://anatomytool.org/content/open3dmodel-shoulder-english-labels",
+    "assetUrl": "https://caskanatomy.info/open3dviewer/3dmodels/zone-shoulder/zone-shoulder.glb",
+    "sizeMB": 4.96
+  }
+}

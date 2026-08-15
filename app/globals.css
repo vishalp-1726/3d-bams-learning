@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/*
+ * Light, high-contrast theme for long study sessions.
+ *
+ * Deliberately not a dark UI: students read these panels for an hour at a time,
+ * and dark backgrounds also fight the models themselves, whose bones are ivory
+ * and whose vessels are saturated red and blue.
+ */
+:root {
+  color-scheme: light;
+
+  --page: #f6f8fb;
+  --surface: #ffffff;
+  --border: #dfe6ee;
+  --ink: #0f1c2e;
+  --ink-soft: #4a5b70;
+  --ink-faint: #7b8a9c;
+  --accent: #0e7490;
+  --accent-soft: #ecfeff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--page);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Anatomical prose is dense; give it room to breathe. */
+.prose-anat p {
+  line-height: 1.65;
+}
+
+canvas {
+  touch-action: none;
+  outline: none;
+  display: block;
+}
+
+/* Pointer feedback: the whole point is that structures are clickable. */
+.anat-canvas canvas {
+  cursor: crosshair;
+}
+
+/* Range input styled consistently across browsers. */
+input[type="range"] {
+  accent-color: var(--accent);
+}
+
+::selection {
+  background: #cffafe;
+  color: #0f1c2e;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "bams-3d-learning",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free 3D anatomy learning platform for BAMS and MBBS students, built on open-licensed anatomically segmented models.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "prepare": "node scripts/copy-draco.mjs",
+    "setup": "npm run models:fetch && npm run models:names",
+    "models:discover": "node scripts/discover-models.mjs",
+    "models:fetch": "node scripts/fetch-models.mjs",
+    "models:names": "node scripts/extract-mesh-names.mjs",
+    "models:verify": "node scripts/verify-mesh-names.mjs",
+    "audit": "node scripts/audit-content.mjs",
+    "coverage": "node scripts/coverage-report.mjs",
+    "generate": "node scripts/generate-structures.mjs",
+    "check:visual": "node scripts/visual-check.mjs",
+    "check:hydration": "node scripts/check-hydration.mjs",
+    "check:zoom": "node scripts/check-zoom.mjs",
+    "shots": "node scripts/shots.mjs",
+    "check:rotate": "node scripts/check-rotate.mjs",
+    "check:mirror": "node scripts/check-mirror.mjs",
+    "check:views": "node scripts/check-views.mjs",
+    "check:layout": "node scripts/diagnose-layout.mjs",
+    "check:content": "node scripts/check-no-dead-ends.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.180.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.180.0",
+    "playwright": "^1.62.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}

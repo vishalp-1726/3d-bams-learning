@@ -1,0 +1,326 @@
+[
+  {
+    "id": "overview-skeleton",
+    "title": "Whole skeleton",
+    "group": "Skeleton & general",
+    "blurb": "Every bone of the body in one model — the place to start when you need to see where a region sits.",
+    "file": "overview-skeleton.glb",
+    "sizeMB": 3.26,
+    "meshCount": 144
+  },
+  {
+    "id": "insertions-and-origins",
+    "title": "Muscle attachments",
+    "group": "Skeleton & general",
+    "blurb": "Origins and insertions painted onto the bones. The fastest way to stop memorising attachment lists blindly.",
+    "file": "insertions-and-origins.glb",
+    "sizeMB": 4.14,
+    "meshCount": 341
+  },
+  {
+    "id": "vertebrae",
+    "title": "Typical vertebra",
+    "group": "Skeleton & general",
+    "blurb": "The parts of a typical vertebra — body, pedicles, laminae, processes and the vertebral foramen.",
+    "file": "vertebrae.glb",
+    "sizeMB": 0.2,
+    "meshCount": 3
+  },
+  {
+    "id": "overview-skull",
+    "title": "Skull",
+    "group": "Head",
+    "blurb": "The complete skull with every named bone, foramen and suture.",
+    "file": "overview-skull.glb",
+    "sizeMB": 0.98,
+    "meshCount": 29
+  },
+  {
+    "id": "overview-colored-skull",
+    "title": "Skull, colour-coded",
+    "group": "Head",
+    "blurb": "The same skull with each bone in its own colour — much easier when you are first learning which bone is which.",
+    "file": "overview-colored-skull.glb",
+    "sizeMB": 1.08,
+    "meshCount": 29
+  },
+  {
+    "id": "exploded-skull",
+    "title": "Exploded skull",
+    "group": "Head",
+    "blurb": "The skull pulled apart so you can see how the individual bones interlock at the sutures.",
+    "file": "exploded-skull.glb",
+    "sizeMB": 1.15,
+    "meshCount": 29
+  },
+  {
+    "id": "colored-skull-base",
+    "title": "Skull base, colour-coded",
+    "group": "Head",
+    "blurb": "The floor of the cranial cavity — anterior, middle and posterior cranial fossae and the foramina passing through them.",
+    "file": "colored-skull-base.glb",
+    "sizeMB": 1.1,
+    "meshCount": 29
+  },
+  {
+    "id": "muscles-thorax-abdomen",
+    "title": "Muscles of thorax, abdomen & back",
+    "group": "Trunk",
+    "blurb": "The trunk wall in layers — from trapezius and latissimus dorsi down to the deep intrinsic back muscles and the abdominal wall.",
+    "file": "muscles-thorax-abdomen.glb",
+    "sizeMB": 4.92,
+    "meshCount": 191
+  },
+  {
+    "id": "pelvicfloor",
+    "title": "Pelvic floor & perineum",
+    "group": "Pelvis & inguinal region",
+    "blurb": "Levator ani, the urogenital diaphragm and the perineal pouches — a region that is very hard to picture from flat diagrams.",
+    "file": "pelvicfloor.glb",
+    "sizeMB": 2.98,
+    "meshCount": 117
+  },
+  {
+    "id": "inguinal-canal",
+    "title": "Inguinal & femoral canal",
+    "group": "Pelvis & inguinal region",
+    "blurb": "The walls, rings and contents of the inguinal canal, with the femoral canal alongside it.",
+    "file": "inguinal-canal.glb",
+    "sizeMB": 4.31,
+    "meshCount": 248
+  },
+  {
+    "id": "inguinal-and-femoral-canal-hernia-surgery",
+    "title": "Hernia surgery view",
+    "group": "Pelvis & inguinal region",
+    "blurb": "The same region reduced to the structures a surgeon must identify when repairing an inguinal or femoral hernia.",
+    "file": "inguinal-and-femoral-canal-hernia-surgery.glb",
+    "sizeMB": 1.33,
+    "meshCount": 57
+  },
+  {
+    "id": "inguinal-ligament",
+    "title": "Inguinal ligament",
+    "group": "Pelvis & inguinal region",
+    "blurb": "The inguinal ligament and what passes above and below it.",
+    "file": "inguinal-ligament.glb",
+    "sizeMB": 0.67,
+    "meshCount": 24
+  },
+  {
+    "id": "upper-limb",
+    "title": "Upper limb, complete",
+    "group": "Upper limb",
+    "blurb": "Shoulder to fingertips in one model — bones, muscles, vessels and nerves, split into pectoral girdle, arm, forearm and hand.",
+    "file": "upper-limb.glb",
+    "sizeMB": 6.59,
+    "meshCount": 529
+  },
+  {
+    "id": "upper-limb-bones-and-cartilages",
+    "title": "Upper limb bones",
+    "group": "Upper limb",
+    "blurb": "Just the bones and cartilages, with the soft tissue stripped away — for osteology practicals.",
+    "file": "upper-limb-bones-and-cartilages.glb",
+    "sizeMB": 2.21,
+    "meshCount": 185
+  },
+  {
+    "id": "zone-shoulder",
+    "title": "Shoulder, complete",
+    "group": "Upper limb",
+    "blurb": "The shoulder region in full — glenohumeral joint, pectoral girdle, muscles, and the vessels and nerves crossing it.",
+    "file": "zone-shoulder.glb",
+    "sizeMB": 4.96,
+    "meshCount": 272
+  },
+  {
+    "id": "shoulder-and-pectoral-girdle-joints",
+    "title": "Shoulder & pectoral girdle joints",
+    "group": "Upper limb",
+    "blurb": "Glenohumeral, acromioclavicular and sternoclavicular joints with their capsules and ligaments.",
+    "file": "shoulder-and-pectoral-girdle-joints.glb",
+    "sizeMB": 0.47,
+    "meshCount": 33
+  },
+  {
+    "id": "rotator-cuff",
+    "title": "Rotator cuff",
+    "group": "Upper limb",
+    "blurb": "Supraspinatus, infraspinatus, teres minor and subscapularis — the four muscles that hold the humeral head in place.",
+    "file": "rotator-cuff.glb",
+    "sizeMB": 0.85,
+    "meshCount": 33
+  },
+  {
+    "id": "upper-limb-axio-appendicular-muscles",
+    "title": "Axio-appendicular muscles",
+    "group": "Upper limb",
+    "blurb": "The muscles connecting the trunk to the upper limb — pectoralis major and minor, trapezius, latissimus dorsi, serratus anterior.",
+    "file": "upper-limb-axio-appendicular-muscles.glb",
+    "sizeMB": 2.77,
+    "meshCount": 179
+  },
+  {
+    "id": "upper-limb-scapulohumeral-muscles",
+    "title": "Scapulohumeral muscles",
+    "group": "Upper limb",
+    "blurb": "The muscles running from the scapula to the humerus, including deltoid and the rotator cuff.",
+    "file": "upper-limb-scapulohumeral-muscles.glb",
+    "sizeMB": 2.05,
+    "meshCount": 133
+  },
+  {
+    "id": "upper-limb-arm-muscles",
+    "title": "Arm muscles",
+    "group": "Upper limb",
+    "blurb": "The anterior and posterior compartments of the arm — biceps, brachialis, coracobrachialis and triceps.",
+    "file": "upper-limb-arm-muscles.glb",
+    "sizeMB": 1.27,
+    "meshCount": 48
+  },
+  {
+    "id": "zone-elbow",
+    "title": "Elbow, complete",
+    "group": "Upper limb",
+    "blurb": "The elbow joint, cubital fossa and the structures crossing it.",
+    "file": "zone-elbow.glb",
+    "sizeMB": 1.28,
+    "meshCount": 91
+  },
+  {
+    "id": "upper-limb-forearm-anterior-compartment-muscles",
+    "title": "Forearm, anterior compartment",
+    "group": "Upper limb",
+    "blurb": "The flexor-pronator group in its superficial, intermediate and deep layers.",
+    "file": "upper-limb-forearm-anterior-compartment-muscles.glb",
+    "sizeMB": 1.88,
+    "meshCount": 118
+  },
+  {
+    "id": "hand",
+    "title": "Hand & wrist, complete",
+    "group": "Upper limb",
+    "blurb": "Carpals, metacarpals and phalanges with the intrinsic muscles, palmar arches and every named branch of the median and ulnar nerves.",
+    "file": "hand.glb",
+    "sizeMB": 3.1,
+    "meshCount": 220
+  },
+  {
+    "id": "hand-and-wrist-bones-and-cartilages",
+    "title": "Hand & wrist bones",
+    "group": "Upper limb",
+    "blurb": "The eight carpal bones, metacarpals and phalanges on their own — for learning the carpus.",
+    "file": "hand-and-wrist-bones-and-cartilages.glb",
+    "sizeMB": 0.39,
+    "meshCount": 40
+  },
+  {
+    "id": "hand-and-wrist-joints",
+    "title": "Hand & wrist joints",
+    "group": "Upper limb",
+    "blurb": "Radiocarpal, intercarpal, carpometacarpal and interphalangeal joints with their ligaments.",
+    "file": "hand-and-wrist-joints.glb",
+    "sizeMB": 1.01,
+    "meshCount": 86
+  },
+  {
+    "id": "brachial-plexus-and-branches",
+    "title": "Brachial plexus & branches",
+    "group": "Upper limb",
+    "blurb": "Roots, trunks, divisions, cords and terminal branches — the plexus laid out in 3D instead of as a flat wiring diagram.",
+    "file": "brachial-plexus-and-branches.glb",
+    "sizeMB": 1.35,
+    "meshCount": 54
+  },
+  {
+    "id": "shoulder-brachial-plexus",
+    "title": "Brachial plexus at the shoulder",
+    "group": "Upper limb",
+    "blurb": "The plexus shown in place among the muscles and vessels of the shoulder and axilla.",
+    "file": "shoulder-brachial-plexus.glb",
+    "sizeMB": 1.28,
+    "meshCount": 68
+  },
+  {
+    "id": "median-nerve",
+    "title": "Median nerve",
+    "group": "Upper limb",
+    "blurb": "The whole course of the median nerve and everything it supplies.",
+    "file": "median-nerve.glb",
+    "sizeMB": 0.56,
+    "meshCount": 39
+  },
+  {
+    "id": "ulnar-nerve",
+    "title": "Ulnar nerve",
+    "group": "Upper limb",
+    "blurb": "The ulnar nerve from cord to fingertips, including its vulnerable points at the elbow and wrist.",
+    "file": "ulnar-nerve.glb",
+    "sizeMB": 0.6,
+    "meshCount": 39
+  },
+  {
+    "id": "radial-nerve",
+    "title": "Radial nerve",
+    "group": "Upper limb",
+    "blurb": "The radial nerve, its spiral groove course and the posterior interosseous branch.",
+    "file": "radial-nerve.glb",
+    "sizeMB": 0.99,
+    "meshCount": 45
+  },
+  {
+    "id": "axillary-nerve",
+    "title": "Axillary nerve",
+    "group": "Upper limb",
+    "blurb": "The axillary nerve winding round the surgical neck of the humerus to reach deltoid.",
+    "file": "axillary-nerve.glb",
+    "sizeMB": 0.72,
+    "meshCount": 37
+  },
+  {
+    "id": "musculocutaneous-nerve",
+    "title": "Musculocutaneous nerve",
+    "group": "Upper limb",
+    "blurb": "The musculocutaneous nerve piercing coracobrachialis and supplying the anterior arm.",
+    "file": "musculocutaneous-nerve.glb",
+    "sizeMB": 1.11,
+    "meshCount": 38
+  },
+  {
+    "id": "lower-limb",
+    "title": "Lower limb, complete",
+    "group": "Lower limb",
+    "blurb": "Hip to foot in one model — gluteal region, thigh compartments, leg and the arches of the foot.",
+    "file": "lower-limb.glb",
+    "sizeMB": 5.9,
+    "meshCount": 441
+  },
+  {
+    "id": "zone-hip",
+    "title": "Hip, complete",
+    "group": "Lower limb",
+    "blurb": "The hip joint with its capsule and ligaments, the gluteal muscles and the structures leaving the pelvis.",
+    "file": "zone-hip.glb",
+    "sizeMB": 2.22,
+    "meshCount": 131
+  },
+  {
+    "id": "zone-knee",
+    "title": "Knee, complete",
+    "group": "Lower limb",
+    "blurb": "Cruciate and collateral ligaments, menisci and the popliteal fossa — the joint students are asked about most.",
+    "file": "zone-knee.glb",
+    "sizeMB": 1.59,
+    "meshCount": 117
+  },
+  {
+    "id": "zone-ankle",
+    "title": "Ankle & foot, complete",
+    "group": "Lower limb",
+    "blurb": "The ankle mortise, tarsal bones, retinacula and the tendons passing behind the malleoli.",
+    "file": "zone-ankle.glb",
+    "sizeMB": 3.16,
+    "meshCount": 236
+  }
+]

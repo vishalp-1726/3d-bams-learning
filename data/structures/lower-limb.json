@@ -1,0 +1,258 @@
+[
+  {
+    "id": "hip-joint-capsule",
+    "meshNames": ["Hip joint capsule.r"],
+    "ta2": "Capsula articularis coxae",
+    "en": "Capsule of the hip joint",
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "A thick, strong sleeve around the hip joint. Unlike the shoulder it is tight and powerful, which is why the hip is stable and rarely dislocates.",
+    "detail": "From the margin of the acetabulum to the intertrochanteric line in front and the femoral neck behind, so the anterior neck is intracapsular while its posterior part is not. Reinforced by the iliofemoral, pubofemoral and ischiofemoral ligaments.",
+    "clinical": "The retinacular arteries supplying the femoral head run along the neck beneath the capsule. Because the anterior neck lies inside the capsule, an intracapsular fracture tears these vessels and risks avascular necrosis, whereas an extracapsular fracture usually does not.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "acetabular-labrum",
+    "meshNames": ["Acetabular labrum.r"],
+    "ta2": "Labrum acetabuli",
+    "en": "Acetabular labrum",
+    "layer": "cartilage",
+    "region": "zone-hip",
+    "plain": "A fibrocartilage rim around the hip socket that deepens it and grips the head of the femur.",
+    "detail": "Attached to the margin of the acetabulum and completed inferiorly by the transverse acetabular ligament. It deepens the socket so it holds more than half a sphere, and seals the joint fluid inside.",
+    "clinical": "Labral tears cause groin pain with clicking and catching, and are strongly associated with femoroacetabular impingement.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "ligament-of-head-of-femur",
+    "meshNames": ["Ligament of head of femur.r"],
+    "ta2": "Ligamentum capitis femoris",
+    "en": "Ligament of the head of the femur",
+    "synonyms": ["ligamentum teres"],
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "A short band running from the socket to a small pit on the head of the thigh bone, carrying a tiny artery with it.",
+    "detail": "Passes from the acetabular fossa and transverse acetabular ligament to the fovea on the femoral head. It carries the acetabular branch of the obturator artery.",
+    "clinical": "That artery matters mainly in children, where it is a significant supply to the femoral head. In adults it contributes very little, which is why an adult femoral neck fracture so readily causes avascular necrosis.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "sacrotuberous-ligament",
+    "meshNames": ["Sacrotuberal ligament.r"],
+    "ta2": "Ligamentum sacrotuberale",
+    "en": "Sacrotuberous ligament",
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "A broad strong band from the sacrum down to the sitting bone. With its partner it turns two notches in the pelvis into two proper openings.",
+    "detail": "From the posterior iliac spines, sacrum and coccyx to the ischial tuberosity. With the sacrospinous ligament it converts the greater and lesser sciatic notches into the greater and lesser sciatic foramina.",
+    "clinical": "Together these two ligaments resist the upward tilting of the lower sacrum caused by body weight. The pudendal nerve and internal pudendal vessels leave through the greater foramen and re-enter through the lesser, hooking around the ischial spine.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "sacrospinous-ligament",
+    "meshNames": ["Sacrospinous ligament.r"],
+    "ta2": "Ligamentum sacrospinale",
+    "en": "Sacrospinous ligament",
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "A triangular ligament from the side of the sacrum to the bony spine of the pelvis, in front of the sacrotuberous ligament.",
+    "detail": "From the lateral sacrum and coccyx to the ischial spine, lying anterior to the sacrotuberous ligament and forming the lower boundary of the greater sciatic foramen.",
+    "clinical": "The ischial spine, to which it attaches, is the landmark for a pudendal nerve block in labour — reached through the vagina, feeling for the spine and injecting just medial to it.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "inguinal-ligament-structure",
+    "meshNames": ["Inguinal ligament.r"],
+    "ta2": "Ligamentum inguinale",
+    "en": "Inguinal ligament",
+    "synonyms": ["Poupart's ligament"],
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "The cord you can feel running from the front of the hip bone to the pubis, forming the crease at the top of the thigh.",
+    "detail": "The rolled-under lower border of the aponeurosis of external abdominal oblique, running from the anterior superior iliac spine to the pubic tubercle. It forms the floor of the inguinal canal.",
+    "clinical": "The dividing line between abdomen and thigh. A hernia above and medial to the pubic tubercle is inguinal; below and lateral to it, femoral. The femoral artery is felt at its midpoint — the mid-inguinal point.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06"] }
+  },
+  {
+    "id": "pubic-symphysis",
+    "meshNames": ["Interpubic disc"],
+    "ta2": "Symphysis pubica",
+    "en": "Pubic symphysis",
+    "synonyms": ["interpubic disc", "symphysis pubis"],
+    "layer": "cartilage",
+    "region": "zone-hip",
+    "plain": "The joint at the front of the pelvis where the two hip bones meet, with a pad of cartilage between them.",
+    "detail": "A secondary cartilaginous joint. The two pubic bones are covered with hyaline cartilage and united by a fibrocartilaginous interpubic disc, reinforced by superior and inferior pubic ligaments.",
+    "clinical": "It softens under the influence of relaxin in late pregnancy, allowing the pelvic outlet to widen slightly during delivery. Excessive movement causes symphysis pubis dysfunction and pain on walking.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "pubic-ligaments",
+    "meshNames": ["Sup, Inf, Ant, Post, Pubic ligaments"],
+    "ta2": "Ligamenta pubica",
+    "en": "Pubic ligaments",
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "The bands reinforcing the joint at the front of the pelvis on all four sides.",
+    "detail": "Superior and inferior (arcuate) pubic ligaments are the strongest, with weaker anterior and posterior bands. The inferior pubic ligament forms the rounded upper margin of the pubic arch.",
+    "clinical": "The subpubic angle formed beneath these ligaments is wider in the female pelvis — one of the standard features distinguishing male from female pelves.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "sacroiliac-ligaments",
+    "meshNames": [
+      "Anterior sacro-iliac ligament.r",
+      "Interossea / Posterior sacro-iliac ligament.r"
+    ],
+    "ta2": "Ligamenta sacroiliaca",
+    "en": "Sacro-iliac ligaments",
+    "layer": "ligament",
+    "region": "zone-hip",
+    "plain": "The very strong ligaments binding the sacrum to the hip bones. They carry your entire upper body weight down into the legs.",
+    "detail": "Anterior, interosseous and posterior groups. The interosseous ligament is the strongest in the body, suspending the sacrum between the two ilia.",
+    "clinical": "The sacro-iliac joint moves barely at all — that rigidity is the point. It is a common source of low back pain, and is characteristically inflamed and later fused in ankylosing spondylitis.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "talocrural-capsule",
+    "meshNames": ["Capsule of talocrural joint.r"],
+    "ta2": "Capsula articularis talocruralis",
+    "en": "Capsule of the ankle joint",
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "The sleeve around the ankle joint itself, where the leg bones grip the talus like a spanner on a nut.",
+    "detail": "A hinge (ginglymus) synovial joint between the distal tibia and fibula above and the trochlea of the talus below. The capsule is thin in front and behind to allow dorsiflexion and plantarflexion, and strongly reinforced at the sides.",
+    "clinical": "The talus is wider in front than behind, so the joint is most stable in dorsiflexion and least stable in plantarflexion — which is exactly why ankles are sprained when the foot is pointed downwards.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M05", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "anterior-talofibular-ligament",
+    "meshNames": ["Anterior talofibular ligament.r"],
+    "ta2": "Ligamentum talofibulare anterius",
+    "en": "Anterior talofibular ligament",
+    "synonyms": ["ATFL"],
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "A short flat band on the outer side of the ankle running forwards from the fibula to the talus. It is the ligament people tear when they 'go over' on their ankle.",
+    "detail": "From the anterior margin of the lateral malleolus to the neck of the talus. Part of the lateral collateral complex with the calcaneofibular and posterior talofibular ligaments.",
+    "clinical": "The most frequently injured ligament in the entire body. It resists inversion in plantarflexion, which is the position of a typical sprain, and it is the weakest of the three lateral ligaments. Tested with the anterior drawer test of the ankle.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "calcaneofibular-ligament",
+    "meshNames": ["Calcaneofibular ligament.r"],
+    "ta2": "Ligamentum calcaneofibulare",
+    "en": "Calcaneofibular ligament",
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "A cord running down and back from the tip of the outer ankle bone to the heel bone.",
+    "detail": "From the tip of the lateral malleolus to a tubercle on the lateral surface of the calcaneus, crossing both the ankle and subtalar joints. The fibularis tendons pass superficial to it.",
+    "clinical": "The second lateral ligament to tear in an inversion injury, after the anterior talofibular. Its involvement is what makes a sprain unstable, tested with the talar tilt test.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "deltoid-ligament",
+    "meshNames": [
+      "Anterior tibiotalar ligament (Tibiospring lig.).r",
+      "Posterior tibiotalar ligament.r",
+      "Tibiocalcaneal ligament.r",
+      "Tibionavicular ligament.r"
+    ],
+    "ta2": "Ligamentum collaterale mediale; Ligamentum deltoideum",
+    "en": "Deltoid (medial) ligament",
+    "synonyms": [
+      "medial collateral ligament of the ankle",
+      "tibiotalar, tibiocalcaneal and tibionavicular complex"
+    ],
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "A strong triangular ligament fanning out from the inner ankle bone to three bones of the foot. It is so strong that the bone usually breaks before it tears.",
+    "detail": "Four parts from the medial malleolus: tibionavicular, tibiocalcaneal, and anterior and posterior tibiotalar. It resists eversion of the foot.",
+    "clinical": "Far stronger than the lateral ligaments — a forced eversion tends to avulse the medial malleolus rather than tear the ligament. If the deltoid ligament is disrupted along with a fibular fracture, the ankle mortise is unstable and needs fixation.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "tibiofibular-syndesmosis",
+    "meshNames": [
+      "Anterior tibiofibular ligament.r",
+      "Posterior tibiofibular ligament.r",
+      "Transverse tibiofibular ligament.r",
+      "Interosseous membrane of leg.r"
+    ],
+    "ta2": "Syndesmosis tibiofibularis",
+    "en": "Inferior tibiofibular syndesmosis",
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "The fibrous joint binding the two leg bones together just above the ankle. It holds the ankle socket at the right width.",
+    "detail": "A fibrous joint between the distal tibia and fibula, held by the anterior and posterior tibiofibular ligaments, the transverse tibiofibular ligament and the interosseous membrane above.",
+    "clinical": "Injury here is a 'high ankle sprain'. If the syndesmosis is torn the mortise widens, the talus shifts, and the joint will not heal correctly without a syndesmotic screw.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "spring-ligament",
+    "meshNames": ["Plantar calcaneonavicular ligament.r"],
+    "ta2": "Ligamentum calcaneonaviculare plantare",
+    "en": "Plantar calcaneonavicular ligament",
+    "synonyms": ["spring ligament"],
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "A thick elastic band in the sole running from the heel bone to the navicular. It slings the head of the talus and holds up the arch of the foot.",
+    "detail": "From the sustentaculum tali to the navicular, supporting the head of the talus on its upper surface. Reinforced above by the tendon of tibialis posterior.",
+    "clinical": "The key support of the medial longitudinal arch. Stretching or failure of this ligament, often with tibialis posterior dysfunction, produces acquired flat foot.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "long-plantar-ligament",
+    "meshNames": ["Long plantar ligament.r", "Plantar calcaneocuboid ligament.r"],
+    "ta2": "Ligamentum plantare longum",
+    "en": "Long & short plantar ligaments",
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "Strong straps along the sole running forwards from the heel bone. They hold up the outer arch of the foot.",
+    "detail": "The long plantar ligament runs from the plantar surface of the calcaneus to the cuboid and on to the bases of the metatarsals, forming a tunnel for the tendon of fibularis longus. The short plantar (plantar calcaneocuboid) ligament lies deep to it.",
+    "clinical": "Together with the plantar aponeurosis these are the main passive supports of the lateral longitudinal arch.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "subtalar-ligaments",
+    "meshNames": [
+      "Interosseus talocalcaneal ligament.r",
+      "Cervical ligament (anterior talocalcaneal ligament).r",
+      "Anterior talocalcaneal ligament.r",
+      "Posterior talocalcaneal ligament.r",
+      "Medial talocalcaneal ligament.r"
+    ],
+    "ta2": "Ligamenta talocalcanea",
+    "en": "Talocalcaneal (subtalar) ligaments",
+    "layer": "ligament",
+    "region": "zone-ankle",
+    "plain": "The ligaments binding the talus to the heel bone below it. This is the joint that lets the sole turn inwards and outwards.",
+    "detail": "The strong interosseous talocalcaneal ligament occupies the tarsal sinus between the two bones, with the cervical ligament in front of it, plus medial, anterior and posterior bands.",
+    "clinical": "Inversion and eversion happen at the subtalar and transverse tarsal joints, not at the ankle joint proper — a distinction that matters when localising the site of a sprain.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M06", "AyUG-RS-P1-M11"] }
+  },
+  {
+    "id": "navicular-bone",
+    "meshNames": ["Navicular bone.r"],
+    "ta2": "Os naviculare",
+    "en": "Navicular",
+    "layer": "bone",
+    "region": "zone-ankle",
+    "plain": "A boat-shaped tarsal bone on the inner side of the foot, between the talus behind and the three cuneiforms in front.",
+    "detail": "Its prominent tuberosity on the medial side receives the main insertion of tibialis posterior and is easily felt through the skin.",
+    "clinical": "The navicular tuberosity is the landmark for the medial longitudinal arch. An accessory navicular is a common variant that can cause pain under the tibialis posterior tendon.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  },
+  {
+    "id": "cuboid-bone",
+    "meshNames": ["Cuboid bone.r"],
+    "ta2": "Os cuboideum",
+    "en": "Cuboid",
+    "layer": "bone",
+    "region": "zone-ankle",
+    "plain": "A cube-shaped tarsal bone on the outer side of the foot, in front of the heel bone.",
+    "detail": "Articulates with the calcaneus behind and the 4th and 5th metatarsals in front. A groove on its plantar surface carries the tendon of fibularis longus.",
+    "clinical": "That groove is why the fibularis longus tendon can cross the sole to reach the base of the 1st metatarsal, supporting the transverse arch.",
+    "curriculum": { "ncism": ["AyUG-RS-P1-M04", "AyUG-RS-P1-M10"] }
+  }
+]
