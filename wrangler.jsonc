@@ -21,18 +21,21 @@
   "name": "3d-bams-learning",
   "compatibility_date": "2026-08-15",
 
-  // Build before deploying.
+  // Build before deploying — for LOCAL use only.
   //
-  // ./out is generated, not committed, so a deploy that runs `wrangler deploy`
-  // without building first fails with:
+  // ./out is generated, not committed, so `wrangler deploy` fails without it:
   //
   //   The directory specified by the "assets.directory" field ... does not exist:
   //   /opt/buildhome/repo/out
   //
-  // That is exactly what happened once the OpenNext path was removed: OpenNext
-  // had been running the build itself, and nothing replaced it. Declaring the
-  // build here means the deploy is self-contained and does not depend on a build
-  // command being set correctly in the dashboard.
+  // This hook runs locally (you see "[custom build]" in the output) but is
+  // SKIPPED by Cloudflare Workers Builds, which suppresses wrangler's custom
+  // build on the assumption that the platform already built the project. Relying
+  // on it in CI produced exactly the error above, twice.
+  //
+  // The deploy command must therefore build explicitly. That is why the
+  // dashboard's deploy command is `npm run deploy`, which is
+  // `next build && wrangler deploy` — see DEPLOY.md.
   "build": {
     "command": "npm run build"
   },

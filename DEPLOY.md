@@ -25,14 +25,27 @@ In the Cloudflare dashboard, the project needs only:
 | Field | Value |
 | --- | --- |
 | Branch | `main` |
-| Deploy command | `npx wrangler deploy` |
+| **Deploy command** | **`npm run deploy`** |
 | Build command | *(may be left blank)* |
 | Build output directory | *(leave blank — `wrangler.jsonc` supplies it)* |
 
-The build command can be blank because `wrangler.jsonc` declares
-`build.command: "npm run build"`, so `wrangler deploy` builds first and then
-uploads. That is deliberate: it keeps the deploy self-contained rather than
-depending on a dashboard field being set correctly.
+**The deploy command must be `npm run deploy`, not `npx wrangler deploy`.**
+
+`npm run deploy` is `next build && wrangler deploy`. The build has to be part of
+the deploy command because `./out` is generated rather than committed, and
+Cloudflare Workers Builds **suppresses wrangler's own `build.command` hook** — it
+assumes the platform already built the project. That hook runs locally, where you
+see `[custom build]` in the output, but not in CI, which is why two consecutive
+deploys failed with:
+
+```
+The directory specified by the "assets.directory" field ... does not exist:
+  /opt/buildhome/repo/out
+```
+
+If you would rather keep `npx wrangler deploy`, then the dashboard's **Build
+command** must be set to `npm run build` instead. One of the two must build; the
+config file cannot be relied on to do it.
 
 There are no environment variables and no secrets.
 
