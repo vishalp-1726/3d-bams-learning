@@ -11,7 +11,7 @@
     "deploy": "next build && wrangler deploy",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "prepare": "node scripts/copy-draco.mjs",
+    "prepare": "node scripts/copy-draco.mjs && node scripts/ensure-build.mjs",
     "setup": "npm run models:fetch && npm run models:names",
     "models:discover": "node scripts/discover-models.mjs",
     "models:fetch": "node scripts/fetch-models.mjs",
