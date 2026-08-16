@@ -1,5 +1,8 @@
 # Anatomy 3D — for BAMS & MBBS students
 
+**Live: <https://3d-bams-learning.vishalp4607.workers.dev>**
+
+
 A free 3D anatomy learning site built on **anatomically segmented** models: every
 structure is a separate, individually named object, not a single sculpted shape with
 labels stuck on top.

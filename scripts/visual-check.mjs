@@ -71,7 +71,16 @@ async function checkRegion(page, { region, search, expect }) {
   result.loadMs = Date.now() - started;
 
   const counts = await page.evaluate(() => {
-    const text = document.body.innerText.match(/(\d+)\s+named structures/);
+    /*
+     * Read the count from the attribute, not from prose.
+     *
+     * This used to scrape "N named structures" out of the body text, which the
+     * canvas-first redesign moved off screen — so every run silently reported
+     * "0 structures" while still passing. data-structure-count is the same
+     * signal the readiness wait above uses, so the two cannot drift apart.
+     */
+    const viewer = document.querySelector("[data-viewer]");
+    const attr = Number(viewer?.getAttribute("data-structure-count") ?? 0);
     const canvas = document.querySelector("canvas");
     // Split the wait into "fetching the file" vs "everything after".
     // Network is the part a real user's connection affects; the remainder is
@@ -81,7 +90,7 @@ async function checkRegion(page, { region, search, expect }) {
       .getEntriesByType("resource")
       .find((e) => e.name.endsWith(".glb"));
     return {
-      structures: text ? Number(text[1]) : 0,
+      structures: attr,
       canvas: canvas ? [canvas.width, canvas.height] : null,
       visibility: document.visibilityState,
       glbMs: glb ? Math.round(glb.duration) : null,
@@ -187,39 +196,74 @@ async function main() {
     checks = CHECKS;
   }
 
-  const browser = await chromium.launch({
-    args: [
-      // Software WebGL: there is no GPU in CI, and headless Chrome refuses
-      // hardware GL. SwiftShader is slow but correct.
-      "--use-gl=angle",
-      "--use-angle=swiftshader",
-      "--enable-unsafe-swiftshader",
-    ],
-  });
-  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
-  // Software rendering plus on-demand dev compilation makes 30s far too tight.
-  page.setDefaultNavigationTimeout(120_000);
-  page.setDefaultTimeout(60_000);
+  const launch = () =>
+    chromium.launch({
+      args: [
+        // Software WebGL: there is no GPU in CI, and headless Chrome refuses
+        // hardware GL. SwiftShader is slow but correct.
+        "--use-gl=angle",
+        "--use-angle=swiftshader",
+        "--enable-unsafe-swiftshader",
+      ],
+    });
 
+  let browser = await launch();
   const consoleErrors = [];
-  page.on("pageerror", (err) => consoleErrors.push(err.message));
+
+  /*
+   * A fresh page per region, and a fresh browser every few regions.
+   *
+   * Reusing one page for all 36 models crashes Chromium partway through:
+   * each region builds a new WebGL context and a scene of up to 529 meshes,
+   * SwiftShader keeps it all in main memory, and nothing is reclaimed fast
+   * enough. Against the live site that produced "Page crashed" on 29 of 36
+   * regions — a harness failure that looks exactly like a site failure, which
+   * is the worst kind of false alarm.
+   *
+   * Closing the page returns most of it; recycling the browser periodically
+   * returns the rest, since the GPU process leaks across contexts too.
+   */
+  const RECYCLE_EVERY = 6;
 
   // One region failing must not abort the rest — a partial report is useful,
   // a stack trace with no results is not.
   const results = [];
-  for (const check of checks) {
+  for (const [i, check] of checks.entries()) {
     process.stdout.write(`checking ${check.region}...\n`);
+
+    if (i > 0 && i % RECYCLE_EVERY === 0) {
+      await browser.close().catch(() => {});
+      browser = await launch();
+    }
+
+    let page;
     try {
+      page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+      // Software rendering plus a network fetch of several MB makes 30s far
+      // too tight; loading from the live site is slower still than from disk.
+      page.setDefaultNavigationTimeout(180_000);
+      page.setDefaultTimeout(120_000);
+      page.on("pageerror", (err) => consoleErrors.push(err.message));
+
       results.push(await checkRegion(page, check));
     } catch (err) {
       results.push({
         region: check.region,
         problems: [`threw: ${err.message.split("\n")[0]}`],
       });
+      // A crashed page can take the browser with it; replace it rather than
+      // letting every subsequent region inherit the damage.
+      if (/crash/i.test(err.message)) {
+        await browser.close().catch(() => {});
+        browser = await launch();
+        page = null;
+      }
+    } finally {
+      await page?.close().catch(() => {});
     }
   }
 
-  await browser.close();
+  await browser.close().catch(() => {});
 
   console.log("\n" + "-".repeat(78));
   for (const r of results) {

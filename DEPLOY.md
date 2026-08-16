@@ -1,5 +1,8 @@
 # Deploying to Cloudflare
 
+**Live:** <https://3d-bams-learning.vishalp4607.workers.dev>
+
+
 The site is a **static export** — plain HTML, JS and 74 MB of GLB models — with no
 server code of any kind. All 41 routes are prerendered at build time.
 
@@ -129,10 +132,17 @@ server path has crept back in.
 
 ## Failures seen so far, and what they meant
 
-| Error | Cause |
-| --- | --- |
-| `Service binding 'WORKER_SELF_REFERENCE' … not found [10143]` | No wrangler config, so Cloudflare auto-ran the OpenNext migration and built a server Worker. Fixed by adding `wrangler.jsonc`. |
-| `The directory specified by "assets.directory" … does not exist: /opt/buildhome/repo/out` | Nothing built the site. OpenNext had been running the build; once it was removed, no build step remained. Fixed by `build.command` in `wrangler.jsonc`. |
+| Symptom | Cause | Fix |
+| --- | --- | --- |
+| `Service binding 'WORKER_SELF_REFERENCE' … not found [10143]` | No wrangler config, so Cloudflare auto-ran the OpenNext migration and built a **server** Worker. | Added `wrangler.jsonc`. |
+| `assets.directory … does not exist: /opt/buildhome/repo/out` | Nothing built the site — OpenNext had been doing it, and removing OpenNext removed the build. | `build.command` in `wrangler.jsonc`. |
+| Same error again | Cloudflare Workers Builds **suppresses** wrangler's `build.command`. It runs locally, never in CI. | Build moved into `scripts/ensure-build.mjs`, run from `prepare`, which `npm clean-install` always executes. |
+| **Build reports "Success" but the site still serves "Hello world"** | The **production branch** was still `feat/v1-mvp`, a branch that no longer existed. Every push to `main` was therefore treated as *non-production*, running the **Version command** `npx wrangler versions upload` — which uploads a version **without activating it**. | Production branch set to `main`. |
+
+That last one is the subtle one worth remembering: `wrangler versions upload` and
+`wrangler deploy` both report success, but only `deploy` makes the version live.
+If builds pass and the site does not change, check **Settings → Build → Branch
+control → Production branch** first.
 
 ## Custom domain
 
